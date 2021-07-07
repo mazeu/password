@@ -1,13 +1,14 @@
-package com.mazeu.password;
+package com.mazeu.passwordmanager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PasswordApplication {
+public class PasswordmanagerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PasswordApplication.class, args);
+		SpringApplication.run(PasswordmanagerApplication.class, args);
+
 	}
 
 }
